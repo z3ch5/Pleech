@@ -37,3 +37,6 @@ pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,s
   - Leeching proxies from websites based on image processing.
   - Changeable User-Agent.
   - Changeable accuracy.
+  
+  # Lisence
+  Pleech is released under GNU General Public License v3.0
