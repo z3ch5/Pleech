@@ -17,9 +17,8 @@ python wifijammer.py
 pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,socks5}) [-c] [-d SEC] [-T THREAD][-i SERVER:PORT] -s FILE [-v] [--version]
 ```
 <br />
-`-c`
   `-h, --help` <br />show this help message and exit<br />
- *  `-u URL, --url URL`<br />URL to get proxies from<br />
+  `-u URL, --url URL`<br />URL to get proxies from<br />
   `-U FILE, --urls-list FILE`<br />URLs list file to get proxies from<br />
   `-p IP:PORT, --proxy IP:PORT`<br />proxy to check, must be as form {ip:port}<br />
   `-P FILE, --proxies-list FILE`<br />proxies list file to check line by line[first line ip:proxy,2nd line ip2:port2...etc]<br />
