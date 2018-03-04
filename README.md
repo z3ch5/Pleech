@@ -13,33 +13,34 @@ Pleech is yet another proxy leecher, simple yet full featured and powefull.
 # Usage
 pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,socks5}) [-c] [-d SEC] [-T THREAD][-i SERVER:PORT] -s FILE [-v] [--version]
 
-  -h, --help            show this help message and exit
-  -u URL, --url URL     URL to get proxies from
+  -h, --help            show this help message and exit<br />
+  -u URL, --url URL     URL to get proxies from<br />
   -U FILE, --urls-list FILE
                         URLs list file to get proxies from
-  -p IP:PORT, --proxy IP:PORT
+  -p IP:PORT, --proxy IP:PORT<br />
                         proxy to check, must be as form {ip:port}
-  -P FILE, --proxies-list FILE
+  -P FILE, --proxies-list FILE<br />
                         proxies list file to check line by line[first line
-                        ip:proxy,2nd line ip2:port2...etc]
+                        ip:proxy,2nd line ip2:port2...etc]<br />
   -f, --force           Try to bruteforce proxy type and check which one the
-                        proxy is
+                        proxy is<br />
   -t {http,socks4,socks5}, --type {http,socks4,socks5}
-                        Set the proxy type
+                        Set the proxy type<br />
   -c, --check-listed    check the proxy if listed in opened proxies (abusing
-                        list)
+                        list)<br />
   -d SEC, --delay SEC   The timeout while checking proxy and stop the process
-                        to the next one {min.sec}, (default is 5.0)
-  -T THREAD, --thread THREAD
+                        to the next one {min.sec}, (default is 5.0)<br />
+  -T THREAD, --thread THREAD<br />
                         multithreading for faster process
-  -i SERVER:PORT, --irc-test SERVER:PORT
+  -i SERVER:PORT, --irc-test SERVER:PORT<br />
                         check the proxy if works as an irc proxy
-  -s FILE, --save-list FILE
-                        save the working proxies to specific file
-  -v, --verbose         show some details (-vv for more)
-  --version             show program's version number and exit
+  -s FILE, --save-list FILE<br />
+                        save the working proxies to specific file<br />
+  -v, --verbose         show some details (-vv for more)<br />
+  --version             show program's version number and exit<br />
+  
   # Example of saved file:
-  (proxy):(port):(type):(listed or not):(dely):(url where the proxy took from)
+  (proxy):(port):(type):(listed or not):(dely):(url where the proxy took from)<br />
   188.166.110.237:8080:socks5:False(didn't apply -c):5.0:http://www.socks-proxy.net/
   
   # TO-DO
