@@ -11,8 +11,6 @@ Pleech is yet another proxy leecher, simple yet full featured and powefull.
 - Timeout option is giving, so that you can take only fast proxies
 
 # Usage
-
-python wifijammer.py
 ``` shell
 pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,socks5}) [-c] [-d SEC] [-T THREAD][-i SERVER:PORT] -s FILE [-v] [--version]
 ```
@@ -37,5 +35,5 @@ pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,s
   
   # TO-DO
   - Leeching proxies from websites based on image processing.
-  - changeable User-Agent.
-  - changeable accuracy.
+  - Changeable User-Agent.
+  - Changeable accuracy.
