@@ -23,7 +23,7 @@ pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,s
   -c, --check-listed<br />check the proxy if listed in opened proxies (abusing list)<br />
   -d SEC, --delay SEC<br />The timeout while checking proxy and stop the process to the next one {min.sec}, (default is 5.0)<br />
   -T THREAD, --thread THREAD<br />multithreading for faster process<br />
-  -i SERVER:PORT, --irc-test<br />SERVER:PORT  check the proxy if works as an irc proxy<br />
+  -i SERVER:PORT, --irc-test SERVER:PORT<br />check the proxy if works as an irc proxy<br />
   -s FILE, --save-list FILE<br />save the working proxies to specific file<br />
   -v, --verbose<br />show some details (-vv for more)<br />
   --version<br />show program's version number and exit<br />
