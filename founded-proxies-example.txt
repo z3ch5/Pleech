@@ -1,0 +1,3 @@
+123.130.117.48:80:socks5:True:8.0:http://www.socks-proxy.net/
+94.182.130.231:1080:socks5:True:8.0:http://www.socks-proxy.net/
+216.24.77.41:14743:socks5:True:8.0:http://www.socks-proxy.net/
