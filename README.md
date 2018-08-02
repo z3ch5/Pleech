@@ -10,6 +10,10 @@ Pleech is yet another proxy leecher, simple yet full featured and powefull.
 - Can test the proxies if they work with ircs too
 - Timeout option is giving, so that you can take only fast proxies
 
+# Dependencies
+- PySocks https://pypi.org/project/PySocks/
+- Python 3.6 or less
+
 # Usage
 ``` shell
 pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,socks5}) [-c] [-d SEC] [-T THREAD][-i SERVER:PORT] -s FILE [-v] [--version]
