@@ -47,5 +47,5 @@ pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,s
   Pleech is released under GNU General Public License v3.0
   
   # Donation
-  If this project helped you, feel free to donate me something
+  If this project helped you, feel free to donate me something, Doner kebab would be great :)<br />
   Bitcoin: 1MbtJZjXVACUNegHTbeJekojHHKf2TdKCk
