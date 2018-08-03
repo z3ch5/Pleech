@@ -1,5 +1,6 @@
 # Pleech
 Pleech is yet another proxy leecher, simple yet full featured and powefull.
+Please contribute if you like to add some magic or maybe a better UI :P
 
 # Main features
 - Taking proxies from url(s) using regex (regular expression)
@@ -44,3 +45,7 @@ pleech.py [-h] (-u URL | -U FILE | -p IP:PORT | -P FILE) (-f | -t {http,socks4,s
   
   # Lisence
   Pleech is released under GNU General Public License v3.0
+  
+  # Donation
+  If this project helped you, feel free to donate me something
+  Bitcoin: 1MbtJZjXVACUNegHTbeJekojHHKf2TdKCk
